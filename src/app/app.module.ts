@@ -5,7 +5,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
-import { SiteListComponent } from './site-list/site-list.compondent';
+import { SiteListComponent } from './site-list/site-list.component';
 import { TopComponent } from './top/top.component';
 
 @NgModule({
@@ -24,6 +24,6 @@ import { TopComponent } from './top/top.component';
     TopComponent 
   ],
 
-  bootstrap:    [ AppComponent ]
+  bootstrap:    [ SiteListComponent ]
 })
 export class AppModule { }
