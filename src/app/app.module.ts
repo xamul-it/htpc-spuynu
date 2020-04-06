@@ -24,6 +24,6 @@ import { TopComponent } from './top/top.component';
     TopComponent 
   ],
 
-  bootstrap:    [ SiteListComponent ]
+  bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
