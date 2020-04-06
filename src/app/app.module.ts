@@ -7,6 +7,7 @@ import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { SiteListComponent } from './site-list/site-list.component';
 import { TopComponent } from './top/top.component';
+import { SiteComponent } from './site/site.component';
 
 @NgModule({
   imports:      [ 
@@ -21,7 +22,7 @@ import { TopComponent } from './top/top.component';
   declarations: [ 
     AppComponent, 
     SiteListComponent, 
-    TopComponent 
+    TopComponent, SiteComponent 
   ],
 
   bootstrap:    [ AppComponent ]

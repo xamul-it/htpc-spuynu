@@ -1,0 +1,115 @@
+li.site {
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  box-sizing: border-box;
+  color: rgb(12, 12, 13);
+  display: block;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Ubuntu", "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  height: 175px;
+  margin-inline-end: 32px;
+  position: relative;
+  width: 216px;
+
+
+  
+}
+
+a.site-link {
+  box-sizing: border-box;
+  color: rgb(12, 12, 13);
+  display: block;
+  height: 175px;
+  outline-color: rgb(12, 12, 13);
+  outline-style: none;
+  outline-width: 0px;
+  position: absolute;
+  text-decoration: rgb(12, 12, 13);
+  text-decoration-color: rgb(12, 12, 13);
+  text-decoration-line: none;
+  text-decoration-style: solid;
+  text-decoration-thickness: auto;
+  width: 216px;
+}
+
+div.wrapper {  
+  background-color: gray;
+
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  box-shadow: rgba(12, 12, 13, 0.1) 0px 1px 4px 0px;
+  box-sizing: border-box;
+  color: rgb(12, 12, 13);
+  height: 175px;
+
+
+  
+}
+
+div.logo-wrapper {
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  box-sizing: border-box;
+  color: rgb(12, 12, 13);
+  height: 108px;
+  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  position: relative;
+}
+
+div.details {
+  background-color: white;
+  box-sizing: border-box;
+  color: rgb(12, 12, 13);
+  padding-bottom: 12px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 12px;
+
+
+ }
+
+.name {
+  box-sizing: border-box;
+  color: rgb(115, 115, 115);
+  font-size: 13px;
+  line-height: 20px;
+  margin-bottom: 2px;
+  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  padding-bottom: 0px;
+  text-overflow: ellipsis;
+  text-transform: none;
+  white-space: nowrap;
+}
+
+.text {
+  box-sizing: border-box;
+  color: rgb(12, 12, 13);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  margin-bottom: 2px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  max-height: 20px;
+  overflow: hidden;
+  overflow-wrap: break-word;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  padding-bottom: 4px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

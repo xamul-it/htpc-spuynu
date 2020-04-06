@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { sites } from '../sites';
 
 @Component({
   selector: 'app-site-list',
@@ -6,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./site-list.component.css']
 })
 export class SiteListComponent implements OnInit {
-
+  sites = sites;
   constructor() { }
 
   ngOnInit() {

@@ -1,17 +1,20 @@
 export const sites = [
   {
-    name: 'Phone XL',
-    price: 799,
+    name: 'Amazon Prime',
+    logo: '',
+    url: 'http://www.prime.com/',
     description: 'A large phone with one of the best screens'
   },
   {
     name: 'Phone Mini',
-    price: 699,
-    description: 'A great phone with one of the best cameras'
+    logo: '',
+    url: 'http://www.prime.com/',
+    description: 'A large phone with one of the best screens'
   },
   {
     name: 'Phone Standard',
-    price: 299,
-    description: ''
+    logo: '',
+    url: 'http://www.prime.com/',
+    description: 'A large phone with one of the best screens'
   }
 ];
